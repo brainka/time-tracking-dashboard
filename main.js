@@ -37,7 +37,7 @@ const appendItem = (item, timeframeSelected) => {
 	timeTrackingContent.innerHTML += `
 	<div class='activity ${iconName}'>
 		<div class='icon-container '>
-			<img class='icon ${iconName}' src=/images/icon-${iconName}.svg />
+			<img class='icon ${iconName}' src=/images/icon-${iconName}.svg alt='${iconName} icon'>
 		</div>
 	
 		<div class='activity-list'>
